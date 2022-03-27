@@ -1,2 +1,2 @@
 # CS106L
-Stanford CS106B Homework Solutions: Programming Abstractions 2018
+Stanford CS106L Homework Solutions: Programming Abstractions 2018
