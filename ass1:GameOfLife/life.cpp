@@ -136,8 +136,11 @@ void animate(Grid<char>& colony,Grid<char>& subcol,const int frames,const bool w
             setcolony_n(colony,subcol,life);
         }
         pause(500);
-        if(frames!=1)
-        clearConsole();
+        if(frames!=1){
+            printcol(colony);
+            pause(500);
+            clearConsole();
+        }
     }
 }
 
